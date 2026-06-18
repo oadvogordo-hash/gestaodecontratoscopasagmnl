@@ -34,6 +34,7 @@ import {
   Percent,
   XCircle
 } from 'lucide-react';
+import sapContractsIcon from './assets/images/sap_contracts_icon_1781804611937.jpg';
 
 export default function App() {
   // Application State
@@ -251,15 +252,18 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-slate-800 text-white rounded-xl flex items-center justify-center font-black text-lg tracking-wider font-mono">
-              SAP
-            </div>
+            <img 
+              src={sapContractsIcon} 
+              alt="Logo Gestor de Contratos" 
+              className="w-11 h-11 rounded-xl shadow-sm border border-slate-200 object-cover"
+              referrerPolicy="no-referrer"
+            />
             <div>
               <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block leading-none mb-1">
                 Acompanhamento e Medições
               </span>
               <h1 className="text-xl font-extrabold text-slate-900 tracking-tight">
-                Gestor de Contratos & Saldos Residuais
+                Gestão de Contratos
               </h1>
             </div>
           </div>

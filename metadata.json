@@ -1,5 +1,5 @@
 {
-  "name": "Gestor de Contratos SAP",
+  "name": "Gestão de Contratos",
   "description": "Controle dinâmico, monitoramento de prazos, notificações e gestão de saldo residual de contratos SAP e jurídicos.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
