@@ -287,9 +287,9 @@ export default function App() {
             </div>
 
             <div className="hidden sm:flex flex-col items-end text-right">
-              <div className="flex items-center gap-1 text-xs text-slate-600 font-semibold bg-white border border-slate-200 px-3 py-1.5 rounded-xl">
+              <div className="flex items-center gap-1.5 text-xs text-slate-700 font-semibold bg-white border border-slate-200 px-3 py-1.5 rounded-xl">
                 <User className="w-3.5 h-3.5 text-slate-400" />
-                <span>oadvogordo@gmail.com</span>
+                <span>Administrador</span>
               </div>
             </div>
           </div>

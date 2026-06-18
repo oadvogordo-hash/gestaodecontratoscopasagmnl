@@ -494,14 +494,14 @@ export const defaultContracts: Contrato[] = [
 ];
 
 export const defaultNotificationConfig: NotificacoesConfig = {
-  emailDestinatario: "oadvogordo@gmail.com",
+  emailDestinatario: "gestor.contratos@empresa.com",
   alertas: [
-    { dias: 120, ativo: true, canal: 'email', destinatarios: "oadvogordo@gmail.com" },
-    { dias: 90,  ativo: true, canal: 'email', destinatarios: "oadvogordo@gmail.com" },
-    { dias: 30,  ativo: true, canal: 'todos', destinatarios: "oadvogordo@gmail.com, fiscal@empresa.com" },
-    { dias: 15,  ativo: true, canal: 'todos', destinatarios: "oadvogordo@gmail.com, fiscal@empresa.com, gerente@empresa.com" },
-    { dias: 10,  ativo: true, canal: 'todos', destinatarios: "oadvogordo@gmail.com, fiscal@empresa.com, gerente@empresa.com" },
-    { dias: 5,   ativo: true, canal: 'todos', destinatarios: "oadvogordo@gmail.com, fiscal@empresa.com, gerente@empresa.com, diretoria@empresa.com" },
-    { dias: 1,   ativo: true, canal: 'todos', destinatarios: "oadvogordo@gmail.com, fiscal@empresa.com, gerente@empresa.com, diretoria@empresa.com" }
+    { dias: 120, ativo: true, canal: 'email', destinatarios: "gestor.contratos@empresa.com" },
+    { dias: 90,  ativo: true, canal: 'email', destinatarios: "gestor.contratos@empresa.com" },
+    { dias: 30,  ativo: true, canal: 'todos', destinatarios: "gestor.contratos@empresa.com, fiscal@empresa.com" },
+    { dias: 15,  ativo: true, canal: 'todos', destinatarios: "gestor.contratos@empresa.com, fiscal@empresa.com, gerente@empresa.com" },
+    { dias: 10,  ativo: true, canal: 'todos', destinatarios: "gestor.contratos@empresa.com, fiscal@empresa.com, gerente@empresa.com" },
+    { dias: 5,   ativo: true, canal: 'todos', destinatarios: "gestor.contratos@empresa.com, fiscal@empresa.com, gerente@empresa.com, diretoria@empresa.com" },
+    { dias: 1,   ativo: true, canal: 'todos', destinatarios: "gestor.contratos@empresa.com, fiscal@empresa.com, gerente@empresa.com, diretoria@empresa.com" }
   ]
 };
